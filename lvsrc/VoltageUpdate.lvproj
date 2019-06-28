@@ -13,7 +13,8 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Voltage Update.vipb" Type="Document" URL="../Voltage Update.vipb"/>
 		<Item Name="VoltageUpdate.lvclass" Type="LVClass" URL="../VoltageUpdate/VoltageUpdate.lvclass"/>
-		<Item Name="VoltageUpdateUI.lvclass" Type="LVClass" URL="../VoltageUpdateUI/VoltageUpdateUI.lvclass"/>
+		<Item Name="VoltageUpdate.UI.lvclass" Type="LVClass" URL="../VoltageUpdateUI/VoltageUpdate.UI.lvclass"/>
+		<Item Name="Test Client.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Levylab Instruments/SMOs/RemoteControl/Test Client.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Configuration.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/LevyLab/Levylab Instruments/SMOs/Configuration/Configuration.lvclass"/>
@@ -438,8 +439,6 @@
 				<Item Name="DAQmx Write (Analog 1D DBL NChan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/write.llb/DAQmx Write (Analog 1D DBL NChan 1Samp).vi"/>
 				<Item Name="DAQmx Write.vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/write.llb/DAQmx Write.vi"/>
 			</Item>
-			<Item Name="ExampleInstrument.lvclass" Type="LVClass" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2016/templates/JKI/JKI SMO/Example Instrument/ExampleInstrument.lvclass"/>
-			<Item Name="ExampleInstrumentUI.lvclass" Type="LVClass" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2016/templates/JKI/JKI SMO/Example Instrument UI/ExampleInstrumentUI.lvclass"/>
 			<Item Name="shell32.dll" Type="Document" URL="shell32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
