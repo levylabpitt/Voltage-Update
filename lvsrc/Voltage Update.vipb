@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2017" Created_Date="2019-05-28 16:33:06" Modified_Date="2019-05-28 16:47:54" Creator="Patrick" Comments="" ID="1c2769c3850cd6bdce746add7284ac65">
+<VI_Package_Builder_Settings Version="2017" Created_Date="2019-05-28 16:33:06" Modified_Date="2019-09-26 10:55:05" Creator="Patrick" Comments="" ID="3c0014bbc4947a2215ab8b2d8fc0e85b">
   <Library_General_Settings>
     <Package_File_Name>LevyLab_lib_Voltage_Update</Package_File_Name>
-    <Library_Version>1.0.0.2</Library_Version>
+    <Library_Version>1.0.1.3</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..</Library_Output_Folder>
@@ -32,13 +32,14 @@
       <Copyright/>
       <Packager/>
       <URL/>
-      <Release_Notes>initial release</Release_Notes>
+      <Release_Notes>1. update icon
+2. change install location to &lt;user.lib&gt;</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
         <LLB>false</LLB>
         <Preserve_Hierarchy>true</Preserve_Hierarchy>
-        <Path/>
+        <Path>&lt;user.lib&gt;\LevyLab\Voltage Update</Path>
       </Toolkit_VIs>
       <Examples>
         <LLB>false</LLB>
@@ -210,7 +211,7 @@
         <Path>Voltage Update.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>FE091597BB0E37A194706C4FEE7AA0DF</GUID>
+      <GUID>61EC93322BC959FA905FAB408F497E4F</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
