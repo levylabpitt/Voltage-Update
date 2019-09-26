@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2017" Created_Date="2019-05-28 16:33:06" Modified_Date="2019-09-26 10:59:20" Creator="Patrick" Comments="" ID="5ac570248dc3db1d55154faf96c4c1d1">
+<VI_Package_Builder_Settings Version="2017" Created_Date="2019-05-28 16:33:06" Modified_Date="2019-09-26 17:42:42" Creator="Patrick" Comments="" ID="5626c99f0fa86bd34d217f581c4aec71">
   <Library_General_Settings>
     <Package_File_Name>LevyLab_lib_Voltage_Update</Package_File_Name>
-    <Library_Version>1.0.1.4</Library_Version>
+    <Library_Version>1.0.2.5</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..</Library_Output_Folder>
@@ -32,9 +32,8 @@
       <Copyright/>
       <Packager/>
       <URL/>
-      <Release_Notes>1. update icon
-2. change install location to &lt;user.lib&gt;
-3. Update LICENSE</Release_Notes>
+      <Release_Notes>[1.0.2.4]
+fix coerce error for channel min/max</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -212,7 +211,7 @@
         <Path>Voltage Update.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C35130256BD60AC0B74DDFAB100C4C72</GUID>
+      <GUID>30C1F6C36E2A1F1AA074956404BDA0F4</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
