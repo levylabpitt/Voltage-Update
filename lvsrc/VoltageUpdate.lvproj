@@ -11,7 +11,9 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Voltage Update.vipb" Type="Document" URL="../Voltage Update.vipb"/>
+		<Item Name="build support" Type="Folder">
+			<Item Name="Voltage Update.vipb" Type="Document" URL="../../build support/Voltage Update.vipb"/>
+		</Item>
 		<Item Name="Voltage Update.vi" Type="VI" URL="../Voltage Update.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
